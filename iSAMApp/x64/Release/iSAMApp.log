@@ -1,0 +1,579 @@
+﻿  stdafx.cpp
+  CalendarBar.cpp
+  ChildFrm.cpp
+  AffinePosture.cpp
+  Angle.cpp
+  Arc.cpp
+  Circle.cpp
+  Direct.cpp
+  Ellipse.cpp
+  Frame.cpp
+  Line.cpp
+  LineBase.cpp
+  NewCurve.cpp
+  MultiSegLine.cpp
+  Pnt.cpp
+  PolyRegion.cpp
+  Posture.cpp
+  Range.cpp
+  Rectangle.cpp
+  Scp.cpp
+d:\gtsam\isamapp\isamapp\geometry\src\range.cpp(112): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\gtsam\isamapp\isamapp\geometry\src\range.cpp(145): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  ScrnRef.cpp
+  Spline.cpp
+  Spp.cpp
+  Transfor.cpp
+  iSAMApp.cpp
+  iSAMAppDoc.cpp
+  iSAMAppView.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Unknown compiler version - please run the configure tests and report the results
+  Unknown compiler version - please run the configure tests and report the results
+d:\program files\pcl 1.8.1_vs2017\include\pcl-1.8\pcl\point_traits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 iSAMAppView.cpp)
+d:\program files\pcl 1.8.1_vs2017\include\pcl-1.8\pcl\point_traits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 iSAMAppDoc.cpp)
+d:\program files\pcl 1.8.1_vs2017\include\pcl-1.8\pcl\point_traits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 iSAMApp.cpp)
+  CorrList.cpp
+  RangeScanner.cpp
+  ScannerParam.cpp
+d:\gtsam\isamapp\isamapp\laser2d\sensor\src\scannerparam.cpp(182): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  MainFrm.cpp
+  LineFeature.cpp
+  LineFeatureSet.cpp
+  Matrix.cpp
+  misc.cpp
+  PclPointCloud.cpp
+  Unknown compiler version - please run the configure tests and report the results
+d:\program files\pcl 1.8.1_vs2017\include\pcl-1.8\pcl\point_traits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 NavBase\Scan\src\PclPointCloud.cpp)
+d:\gtsam\isamapp\isamapp\navbase\scan\include\misc.h(110): warning C4005: “DEG2RAD”: 宏重定义 (编译源文件 NavBase\Scan\src\PclPointCloud.cpp)
+  d:\program files\pcl 1.8.1_vs2017\include\pcl-1.8\pcl\pcl_macros.h(139): note: 参见“DEG2RAD”的前一个定义 (编译源文件 NavBase\Scan\src\PclPointCloud.cpp)
+d:\gtsam\isamapp\isamapp\navbase\scan\include\misc.h(111): warning C4005: “RAD2DEG”: 宏重定义 (编译源文件 NavBase\Scan\src\PclPointCloud.cpp)
+  d:\program files\pcl 1.8.1_vs2017\include\pcl-1.8\pcl\pcl_macros.h(143): note: 参见“RAD2DEG”的前一个定义 (编译源文件 NavBase\Scan\src\PclPointCloud.cpp)
+  PoseGauss.cpp
+  romo.cpp
+  Scan.cpp
+d:\gtsam\isamapp\isamapp\navbase\scan\src\scan.cpp(587): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+d:\gtsam\isamapp\isamapp\navbase\scan\src\scan.cpp(613): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  ScanPointCloud.cpp
+  MovingObj.cpp
+  SimuScanner.cpp
+d:\gtsam\isamapp\isamapp\navbase\simulate\src\simuscanner.cpp(29): warning C4129: “%”: 不可识别的字符转义序列
+  HistoryPoses.cpp
+  ndt_fuser_node.cpp
+  ndt_cell.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Unknown compiler version - please run the configure tests and report the results
+d:\program files\pcl 1.8.1_vs2017\include\pcl-1.8\pcl\point_traits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 Ndt\ndt_fuser\src\ndt_fuser_node.cpp)
+d:\program files\pcl 1.8.1_vs2017\include\pcl-1.8\pcl\point_traits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 Ndt\ndt_map\src\ndt_cell.cpp)
+  ndt_map.cpp
+  SelectMapType.cpp
+  SimuScanView.cpp
+d:\gtsam\isamapp\isamapp\navbase\scan\include\misc.h(110): warning C4005: “DEG2RAD”: 宏重定义 (编译源文件 Ndt\ndt_map\src\ndt_cell.cpp)
+  d:\program files\pcl 1.8.1_vs2017\include\pcl-1.8\pcl\pcl_macros.h(139): note: 参见“DEG2RAD”的前一个定义 (编译源文件 Ndt\ndt_map\src\ndt_cell.cpp)
+d:\gtsam\isamapp\isamapp\navbase\scan\include\misc.h(111): warning C4005: “RAD2DEG”: 宏重定义 (编译源文件 Ndt\ndt_map\src\ndt_cell.cpp)
+  d:\program files\pcl 1.8.1_vs2017\include\pcl-1.8\pcl\pcl_macros.h(143): note: 参见“RAD2DEG”的前一个定义 (编译源文件 Ndt\ndt_map\src\ndt_cell.cpp)
+  Unknown compiler version - please run the configure tests and report the results
+  Unknown compiler version - please run the configure tests and report the results
+d:\program files\pcl 1.8.1_vs2017\include\pcl-1.8\pcl\point_traits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 Ndt\ndt_map\src\ndt_map.cpp)
+d:\program files\pcl 1.8.1_vs2017\include\pcl-1.8\pcl\point_traits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 SimuScanView.cpp)
+  CsmMatcher.cpp
+  CsmScan.cpp
+  math_utils.cpp
+  math_utils_gsl.cpp
+  egsl.cpp
+  egsl_conversions.cpp
+  egsl_misc.cpp
+  egsl_ops.cpp
+  gpc.cpp
+  gpc_utils.cpp
+  ApplicationNameVariableCommand.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  ChangeCommSettingsCommand.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  CloseSession.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  Cola2Session.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  Command.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  ConfigMetadataVariableCommand.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  CreateSession.cpp
+d:\gtsam\isamapp\isamapp\laser2d\drivers\sick_nanoscan3\src\cola2\command.cpp(45): warning C4244: “初始化”: 从“const uint16_t”转换到“uint8_t”，可能丢失数据
+d:\gtsam\isamapp\isamapp\laser2d\drivers\sick_nanoscan3\src\cola2\command.cpp(46): warning C4244: “初始化”: 从“const uint16_t”转换到“uint8_t”，可能丢失数据
+d:\gtsam\isamapp\isamapp\laser2d\drivers\sick_nanoscan3\src\cola2\command.cpp(179): warning C4267: “初始化”: 从“size_t”转换到“uint32_t”，可能丢失数据
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  DeviceNameVariableCommand.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  DeviceStatusVariableCommand.cpp
+  FieldGeometryVariableCommand.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  FieldHeaderVariableCommand.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  FieldSetsVariableCommand.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  FindMeCommand.cpp
+  FirmwareVersionVariableCommand.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  LatestTelegramVariableCommand.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  MeasurementCurrentConfigVariableCommand.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  MeasurementPersistentConfigVariableCommand.cpp
+  MethodCommand.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  MonitoringCaseTableHeaderVariableCommand.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  MonitoringCaseVariableCommand.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  OrderNumberVariableCommand.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  ProjectNameVariableCommand.cpp
+  RequiredUserActionVariableCommand.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  SerialNumberVariableCommand.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  StatusOverviewVariableCommand.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  TypeCodeVariableCommand.cpp
+  UserNameVariableCommand.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  VariableCommand.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  AsyncTCPClient.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  AsyncUDPClient.cpp
+  ApplicationData.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  ApplicationInputs.cpp
+  ApplicationName.cpp
+  ApplicationOutputs.cpp
+  CommSettings.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  ConfigData.cpp
+  Unknown compiler version - please run the configure tests and report the results
+d:\gtsam\isamapp\isamapp\laser2d\drivers\sick_nanoscan3\src\communication\asynctcpclient.cpp(53): warning C4101: “e”: 未引用的局部变量
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+d:\gtsam\isamapp\isamapp\laser2d\drivers\sick_nanoscan3\src\communication\asyncudpclient.cpp(54): warning C4101: “e”: 未引用的局部变量
+d:\gtsam\isamapp\isamapp\laser2d\drivers\sick_nanoscan3\src\datastructure\commsettings.cpp(47): warning C4244: “=”: 从“double”转换到“uint32_t”，可能丢失数据
+d:\gtsam\isamapp\isamapp\laser2d\drivers\sick_nanoscan3\src\datastructure\commsettings.cpp(48): warning C4244: “=”: 从“double”转换到“uint32_t”，可能丢失数据
+d:\gtsam\isamapp\isamapp\laser2d\drivers\sick_nanoscan3\src\datastructure\commsettings.cpp(133): warning C4244: “=”: 从“double”转换到“uint32_t”，可能丢失数据
+d:\gtsam\isamapp\isamapp\laser2d\drivers\sick_nanoscan3\src\datastructure\commsettings.cpp(143): warning C4244: “=”: 从“double”转换到“uint32_t”，可能丢失数据
+  ConfigMetadata.cpp
+  Data.cpp
+  DatagramHeader.cpp
+d:\gtsam\isamapp\isamapp\laser2d\drivers\sick_nanoscan3\src\datastructure\configdata.cpp(178): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\gtsam\isamapp\isamapp\laser2d\drivers\sick_nanoscan3\src\datastructure\configdata.cpp(193): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\gtsam\isamapp\isamapp\laser2d\drivers\sick_nanoscan3\src\datastructure\configdata.cpp(255): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\gtsam\isamapp\isamapp\laser2d\drivers\sick_nanoscan3\src\datastructure\configdata.cpp(265): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  DataHeader.cpp
+  DerivedValues.cpp
+d:\gtsam\isamapp\isamapp\laser2d\drivers\sick_nanoscan3\src\datastructure\derivedvalues.cpp(83): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\gtsam\isamapp\isamapp\laser2d\drivers\sick_nanoscan3\src\datastructure\derivedvalues.cpp(93): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  DeviceName.cpp
+  DeviceStatus.cpp
+  FieldData.cpp
+  FieldSets.cpp
+d:\gtsam\isamapp\isamapp\laser2d\drivers\sick_nanoscan3\src\datastructure\fielddata.cpp(200): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\gtsam\isamapp\isamapp\laser2d\drivers\sick_nanoscan3\src\datastructure\fielddata.cpp(215): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\gtsam\isamapp\isamapp\laser2d\drivers\sick_nanoscan3\src\datastructure\fielddata.cpp(230): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  FirmwareVersion.cpp
+  GeneralSystemState.cpp
+  IntrusionData.cpp
+  IntrusionDatum.cpp
+  LatestTelegram.cpp
+  MeasurementData.cpp
+  MonitoringCaseData.cpp
+  OrderNumber.cpp
+  PacketBuffer.cpp
+  ParsedPacketBuffer.cpp
+  ProjectName.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  RequiredUserAction.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  ScanPoint.cpp
+  SerialNumber.cpp
+  StatusOverview.cpp
+  TypeCode.cpp
+  UserName.cpp
+  ParseApplicationData.cpp
+  ParseApplicationNameData.cpp
+  ParseConfigMetadata.cpp
+  ParseData.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  Unknown compiler version - please run the configure tests and report the results
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  ParseDatagramHeader.cpp
+  ParseDataHeader.cpp
+  ParseDerivedValues.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  Unknown compiler version - please run the configure tests and report the results
+  ParseDeviceName.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  ParseDeviceStatus.cpp
+  ParseFieldGeometryData.cpp
+d:\gtsam\isamapp\isamapp\laser2d\drivers\sick_nanoscan3\src\data_processing\parsedevicename.cpp(63): warning C4244: “参数”: 从“uint16_t”转换到“const _Elem”，可能丢失数据
+          with
+          [
+              _Elem=char
+          ]
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  ParseFieldHeaderData.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  ParseFieldSetsData.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  ParseFirmwareVersion.cpp
+  ParseGeneralSystemState.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  ParseIntrusionData.cpp
+  ParseMeasurementCurrentConfigData.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+d:\gtsam\isamapp\isamapp\laser2d\drivers\sick_nanoscan3\src\data_processing\parsefirmwareversion.cpp(64): warning C4244: “参数”: 从“uint16_t”转换到“const _Elem”，可能丢失数据
+          with
+          [
+              _Elem=char
+          ]
+  ParseMeasurementData.cpp
+  ParseMeasurementPersistentConfigData.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  ParseMonitoringCaseData.cpp
+  ParseOrderNumber.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+d:\gtsam\isamapp\isamapp\laser2d\drivers\sick_nanoscan3\src\data_processing\parsemeasurementdata.cpp(121): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+  ParseProjectName.cpp
+  ParseRequiredUserAction.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+d:\gtsam\isamapp\isamapp\laser2d\drivers\sick_nanoscan3\src\data_processing\parseordernumber.cpp(63): warning C4244: “参数”: 从“uint16_t”转换到“const _Elem”，可能丢失数据
+          with
+          [
+              _Elem=char
+          ]
+  ParseSerialNumber.cpp
+  ParseStatusOverview.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+d:\gtsam\isamapp\isamapp\laser2d\drivers\sick_nanoscan3\src\data_processing\parseprojectname.cpp(63): warning C4244: “参数”: 从“uint16_t”转换到“const _Elem”，可能丢失数据
+          with
+          [
+              _Elem=char
+          ]
+  ParseTCPPacket.cpp
+  ParseTypeCodeData.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+d:\gtsam\isamapp\isamapp\laser2d\drivers\sick_nanoscan3\src\data_processing\parseserialnumber.cpp(63): warning C4244: “参数”: 从“uint16_t”转换到“const _Elem”，可能丢失数据
+          with
+          [
+              _Elem=char
+          ]
+  ParseUserNameData.cpp
+  TCPPacketMerger.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  UDPPacketMerger.cpp
+  SickSafetyscannersBase.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  Unknown compiler version - please run the configure tests and report the results
+  RawScan.cpp
+  SickSafetyLaserScanner.cpp
+d:\gtsam\isamapp\isamapp\laser2d\sensor\src\rawscan.cpp(117): warning C4244: “初始化”: 从“float”转换到“unsigned short”，可能丢失数据
+d:\gtsam\isamapp\isamapp\laser2d\drivers\sick_nanoscan3\src\data_processing\udppacketmerger.cpp(136): warning C4267: “+=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+  lazy_grid.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  ndt_local.cpp
+  Unknown compiler version - please run the configure tests and report the results
+d:\program files\pcl 1.8.1_vs2017\include\pcl-1.8\pcl\point_traits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 Ndt\ndt_map\src\lazy_grid.cpp)
+  Unknown compiler version - please run the configure tests and report the results
+  Unknown compiler version - please run the configure tests and report the results
+d:\program files\pcl 1.8.1_vs2017\include\pcl-1.8\pcl\point_traits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 Ndt\ndt_map\src\ndt_local.cpp)
+  ndt_matcher_d2d_2d.cpp
+d:\gtsam\isamapp\isamapp\laser2d\sensor\src\sicksafetylaserscanner.cpp(34): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+d:\gtsam\isamapp\isamapp\laser2d\sensor\src\sicksafetylaserscanner.cpp(208): warning C4244: “参数”: 从“float”转换到“const uint32_t”，可能丢失数据
+d:\gtsam\isamapp\isamapp\laser2d\sensor\src\sicksafetylaserscanner.cpp(209): warning C4244: “参数”: 从“float”转换到“const uint32_t”，可能丢失数据
+  Unknown compiler version - please run the configure tests and report the results
+d:\program files\pcl 1.8.1_vs2017\include\pcl-1.8\pcl\point_traits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 Ndt\ndt_registration\src\ndt_matcher_d2d_2d.cpp)
+  PointCloudMap.cpp
+d:\gtsam\isamapp\isamapp\ndt\ndt_map\src\lazy_grid.cpp(637): warning C4838: 从“double”转换到“float”需要收缩转换
+  time_patch.cpp
+d:\gtsam\isamapp\isamapp\time_patch.cpp(19): warning C4244: “=”: 从“time_t”转换到“long”，可能丢失数据
+  Unknown compiler version - please run the configure tests and report the results
+d:\program files\pcl 1.8.1_vs2017\include\pcl-1.8\pcl\point_traits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 PointCloudMap.cpp)
+d:\gtsam\isamapp\isamapp\navbase\scan\include\misc.h(110): warning C4005: “DEG2RAD”: 宏重定义 (编译源文件 PointCloudMap.cpp)
+  d:\program files\pcl 1.8.1_vs2017\include\pcl-1.8\pcl\pcl_macros.h(139): note: 参见“DEG2RAD”的前一个定义 (编译源文件 PointCloudMap.cpp)
+d:\gtsam\isamapp\isamapp\navbase\scan\include\misc.h(111): warning C4005: “RAD2DEG”: 宏重定义 (编译源文件 PointCloudMap.cpp)
+  d:\program files\pcl 1.8.1_vs2017\include\pcl-1.8\pcl\pcl_macros.h(143): note: 参见“RAD2DEG”的前一个定义 (编译源文件 PointCloudMap.cpp)
+    正在创建库 D:\GTSAM\iSAMApp\x64\Release\iSAMApp.lib 和对象 D:\GTSAM\iSAMApp\x64\Release\iSAMApp.exp
+  正在生成代码
+d:\gtsam\isamapp\isamapp\laser2d\sensor\src\sicksafetylaserscanner.cpp(254): warning C4715: “sick::cSickSafetyLaserScanner::Start”: 不是所有的控件路径都返回值
+d:\gtsam\isamapp\isamapp\ndt\ndt_map\src\ndt_map.cpp(693): warning C4715: “perception_oru::NDTMap::addPointCloudMeanUpdate”: 不是所有的控件路径都返回值
+  All 29752 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  iSAMApp.vcxproj -> D:\GTSAM\iSAMApp\x64\Release\iSAMApp.exe

@@ -1,0 +1,26 @@
+{
+  "version": 210,
+  "laser": [
+    {
+      "State":true,
+      "IP": "192.168.3.118",
+      "hostIP": "192.168.3.254",
+      "LaserProductor": 2,
+      "StartAngle": -137.5,
+      "EndAngle": 137.5,
+      "LaserCount": 1650,
+      "x": 0.295,
+      "y": 0.0,
+      "thita": 0.0,
+      "MaxRange" : 40.0,
+      "MinRange" : 0.5,
+      "VisualRange":
+	[
+		{
+		"VisualAngleStart": -137.5,
+		"VisualAngleEnd": 137.5
+		}
+	]      
+    }
+  ]
+}

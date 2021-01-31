@@ -1,0 +1,674 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Geometry">
+      <UniqueIdentifier>{956b9ab4-5aaf-4712-9c70-1b47707c5768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\NavBase">
+      <UniqueIdentifier>{2138a910-e1db-46af-b8b4-e128150ab5e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\NavBase\LineFeature">
+      <UniqueIdentifier>{5907a9eb-2176-453a-96cc-87cc914cbbb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\NavBase\Scan">
+      <UniqueIdentifier>{d5e14dbf-169a-43f8-acd2-dd0158558b77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\NDT">
+      <UniqueIdentifier>{bfe4dda4-69b0-44b3-9e09-17252f3cf09b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\NDT\ndt_fuser">
+      <UniqueIdentifier>{e9e6556d-a87b-4399-a89a-5c82ed58bc1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\NDT\ndt_map">
+      <UniqueIdentifier>{159493d5-9d5b-4da7-9693-4789c6d9370f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\NDT\registration">
+      <UniqueIdentifier>{2bc000ef-b16b-451d-a63b-bae7009cffe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Simulate">
+      <UniqueIdentifier>{2c60acf3-ad53-4f2a-9c71-aa646632b624}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Csm">
+      <UniqueIdentifier>{28e31eda-abc7-406b-81e7-ced597c1f94a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Csm\csm">
+      <UniqueIdentifier>{f0d96acc-0bae-437b-a08e-c72ca65cf3f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Csm\egsl">
+      <UniqueIdentifier>{fb1b8021-a77b-4c4c-a42c-85bb3252f02b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Csm\gpc">
+      <UniqueIdentifier>{f4c74099-aedd-426c-96f3-617d6c6423bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\NavBase\Lasers">
+      <UniqueIdentifier>{8503c76f-e71f-4014-980e-8c63aaf3fb1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\NavBase\Lasers\Drivers">
+      <UniqueIdentifier>{fb7d4d37-428d-4241-bc35-882a917cf1b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\NavBase\Lasers\LaserTypes">
+      <UniqueIdentifier>{a62546da-a97e-4e49-b596-aee0fb98e69a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\NavBase\Lasers\Drivers\Hokuyo_uam05lp">
+      <UniqueIdentifier>{558ed96a-8168-46a3-876e-b551c7de1eb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\NavBase\Lasers\Drivers\pf_r2000">
+      <UniqueIdentifier>{89da002a-eaa0-4499-b984-819eb0f0ef6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\NavBase\Lasers\Drivers\Sick_nanoScan3">
+      <UniqueIdentifier>{c60d50ff-90b7-4c7c-8cc1-669e9c24a57c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\cola2">
+      <UniqueIdentifier>{9ae76e85-142f-44f3-bfdb-2dec038d8865}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\communication">
+      <UniqueIdentifier>{077721ce-bd9f-413f-973a-f7c65054487a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\data_processing">
+      <UniqueIdentifier>{23dc3ca1-af8f-4e53-870b-3240c4bac8fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\datastructure">
+      <UniqueIdentifier>{e80bfdf0-c1a9-4c37-9498-6fd30f43fae9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="iSAMApp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="iSAMAppDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="iSAMAppView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CalendarBar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NavBase\include\misc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SimuScanView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PointCloudMap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectMapType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NdtKeyFrame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="iSAMApp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="iSAMAppDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="iSAMAppView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CalendarBar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\src\Angle.cpp">
+      <Filter>源文件\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\src\Arc.cpp">
+      <Filter>源文件\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\src\Circle.cpp">
+      <Filter>源文件\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\src\Direct.cpp">
+      <Filter>源文件\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\src\Ellipse.cpp">
+      <Filter>源文件\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\src\Frame.cpp">
+      <Filter>源文件\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\src\Line.cpp">
+      <Filter>源文件\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\src\LineBase.cpp">
+      <Filter>源文件\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\src\MultiSegLine.cpp">
+      <Filter>源文件\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\src\NewCurve.cpp">
+      <Filter>源文件\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\src\Pnt.cpp">
+      <Filter>源文件\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\src\PolyRegion.cpp">
+      <Filter>源文件\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\src\Posture.cpp">
+      <Filter>源文件\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\src\Range.cpp">
+      <Filter>源文件\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\src\Rectangle.cpp">
+      <Filter>源文件\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\src\Scp.cpp">
+      <Filter>源文件\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\src\ScrnRef.cpp">
+      <Filter>源文件\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\src\Spline.cpp">
+      <Filter>源文件\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\src\Spp.cpp">
+      <Filter>源文件\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\src\Transfor.cpp">
+      <Filter>源文件\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="NavBase\LineFeature\src\LineFeature.cpp">
+      <Filter>源文件\NavBase\LineFeature</Filter>
+    </ClCompile>
+    <ClCompile Include="NavBase\LineFeature\src\LineFeatureSet.cpp">
+      <Filter>源文件\NavBase\LineFeature</Filter>
+    </ClCompile>
+    <ClCompile Include="NavBase\Scan\src\Matrix.cpp">
+      <Filter>源文件\NavBase\Scan</Filter>
+    </ClCompile>
+    <ClCompile Include="NavBase\Scan\src\PoseGauss.cpp">
+      <Filter>源文件\NavBase\Scan</Filter>
+    </ClCompile>
+    <ClCompile Include="NavBase\Scan\src\romo.cpp">
+      <Filter>源文件\NavBase\Scan</Filter>
+    </ClCompile>
+    <ClCompile Include="NavBase\Scan\src\Scan.cpp">
+      <Filter>源文件\NavBase\Scan</Filter>
+    </ClCompile>
+    <ClCompile Include="NavBase\Scan\src\ScanPointCloud.cpp">
+      <Filter>源文件\NavBase\Scan</Filter>
+    </ClCompile>
+    <ClCompile Include="NavBase\Scan\src\misc.cpp">
+      <Filter>源文件\NavBase\Scan</Filter>
+    </ClCompile>
+    <ClCompile Include="NavBase\Scan\src\PclPointCloud.cpp">
+      <Filter>源文件\NavBase\Scan</Filter>
+    </ClCompile>
+    <ClCompile Include="Ndt\ndt_fuser\src\HistoryPoses.cpp">
+      <Filter>源文件\NDT\ndt_fuser</Filter>
+    </ClCompile>
+    <ClCompile Include="Ndt\ndt_fuser\src\ndt_fuser_node.cpp">
+      <Filter>源文件\NDT\ndt_fuser</Filter>
+    </ClCompile>
+    <ClCompile Include="Ndt\ndt_map\src\lazy_grid.cpp">
+      <Filter>源文件\NDT\ndt_map</Filter>
+    </ClCompile>
+    <ClCompile Include="Ndt\ndt_map\src\ndt_cell.cpp">
+      <Filter>源文件\NDT\ndt_map</Filter>
+    </ClCompile>
+    <ClCompile Include="Ndt\ndt_map\src\ndt_local.cpp">
+      <Filter>源文件\NDT\ndt_map</Filter>
+    </ClCompile>
+    <ClCompile Include="Ndt\ndt_map\src\ndt_map.cpp">
+      <Filter>源文件\NDT\ndt_map</Filter>
+    </ClCompile>
+    <ClCompile Include="Ndt\ndt_registration\src\ndt_matcher_d2d_2d.cpp">
+      <Filter>源文件\NDT\registration</Filter>
+    </ClCompile>
+    <ClCompile Include="NavBase\Simulate\src\MovingObj.cpp">
+      <Filter>源文件\Simulate</Filter>
+    </ClCompile>
+    <ClCompile Include="NavBase\Simulate\src\SimuScanner.cpp">
+      <Filter>源文件\Simulate</Filter>
+    </ClCompile>
+    <ClCompile Include="time_patch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SimuScanView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\Csm\src\csm\CorrList.cpp">
+      <Filter>源文件\Csm\csm</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\Csm\src\csm\CsmMatcher.cpp">
+      <Filter>源文件\Csm\csm</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\Csm\src\csm\CsmScan.cpp">
+      <Filter>源文件\Csm\csm</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\Csm\src\csm\math_utils.cpp">
+      <Filter>源文件\Csm\csm</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\Csm\src\csm\math_utils_gsl.cpp">
+      <Filter>源文件\Csm\csm</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\Csm\src\egsl\egsl.cpp">
+      <Filter>源文件\Csm\egsl</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\Csm\src\egsl\egsl_conversions.cpp">
+      <Filter>源文件\Csm\egsl</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\Csm\src\egsl\egsl_misc.cpp">
+      <Filter>源文件\Csm\egsl</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\Csm\src\egsl\egsl_ops.cpp">
+      <Filter>源文件\Csm\egsl</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\Csm\src\gpc\gpc.cpp">
+      <Filter>源文件\Csm\gpc</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\Csm\src\gpc\gpc_utils.cpp">
+      <Filter>源文件\Csm\gpc</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\cola2\ApplicationNameVariableCommand.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\cola2</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\cola2\ChangeCommSettingsCommand.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\cola2</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\cola2\CloseSession.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\cola2</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\cola2\Cola2Session.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\cola2</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\cola2\Command.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\cola2</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\cola2\ConfigMetadataVariableCommand.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\cola2</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\cola2\CreateSession.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\cola2</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\cola2\DeviceNameVariableCommand.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\cola2</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\cola2\DeviceStatusVariableCommand.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\cola2</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\cola2\FieldGeometryVariableCommand.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\cola2</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\cola2\FieldHeaderVariableCommand.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\cola2</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\cola2\FieldSetsVariableCommand.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\cola2</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\cola2\FindMeCommand.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\cola2</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\cola2\FirmwareVersionVariableCommand.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\cola2</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\cola2\LatestTelegramVariableCommand.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\cola2</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\cola2\MeasurementCurrentConfigVariableCommand.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\cola2</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\cola2\MeasurementPersistentConfigVariableCommand.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\cola2</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\cola2\MethodCommand.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\cola2</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\cola2\MonitoringCaseTableHeaderVariableCommand.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\cola2</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\cola2\MonitoringCaseVariableCommand.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\cola2</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\cola2\OrderNumberVariableCommand.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\cola2</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\cola2\ProjectNameVariableCommand.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\cola2</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\cola2\RequiredUserActionVariableCommand.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\cola2</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\cola2\SerialNumberVariableCommand.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\cola2</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\cola2\StatusOverviewVariableCommand.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\cola2</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\cola2\TypeCodeVariableCommand.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\cola2</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\cola2\UserNameVariableCommand.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\cola2</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\cola2\VariableCommand.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\cola2</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\communication\AsyncTCPClient.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\communication</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\communication\AsyncUDPClient.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\communication</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\data_processing\ParseApplicationData.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\data_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\data_processing\ParseApplicationNameData.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\data_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\data_processing\ParseConfigMetadata.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\data_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\data_processing\ParseData.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\data_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\data_processing\ParseDatagramHeader.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\data_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\data_processing\ParseDataHeader.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\data_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\data_processing\ParseDerivedValues.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\data_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\data_processing\ParseDeviceName.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\data_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\data_processing\ParseDeviceStatus.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\data_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\data_processing\ParseFieldGeometryData.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\data_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\data_processing\ParseFieldHeaderData.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\data_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\data_processing\ParseFieldSetsData.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\data_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\data_processing\ParseFirmwareVersion.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\data_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\data_processing\ParseGeneralSystemState.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\data_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\data_processing\ParseIntrusionData.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\data_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\data_processing\ParseMeasurementCurrentConfigData.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\data_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\data_processing\ParseMeasurementData.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\data_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\data_processing\ParseMeasurementPersistentConfigData.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\data_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\data_processing\ParseMonitoringCaseData.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\data_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\data_processing\ParseOrderNumber.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\data_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\data_processing\ParseProjectName.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\data_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\data_processing\ParseRequiredUserAction.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\data_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\data_processing\ParseSerialNumber.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\data_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\data_processing\ParseStatusOverview.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\data_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\data_processing\ParseTCPPacket.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\data_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\data_processing\ParseTypeCodeData.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\data_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\data_processing\ParseUserNameData.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\data_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\data_processing\TCPPacketMerger.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\data_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\data_processing\UDPPacketMerger.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\data_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\datastructure\ApplicationData.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\datastructure\ApplicationInputs.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\datastructure\ApplicationName.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\datastructure\ApplicationOutputs.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\datastructure\CommSettings.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\datastructure\ConfigData.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\datastructure\ConfigMetadata.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\datastructure\Data.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\datastructure\DatagramHeader.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\datastructure\DataHeader.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\datastructure\DerivedValues.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\datastructure\DeviceName.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\datastructure\DeviceStatus.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\datastructure\FieldData.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\datastructure\FieldSets.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\datastructure\FirmwareVersion.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\datastructure\GeneralSystemState.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\datastructure\IntrusionData.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\datastructure\IntrusionDatum.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\datastructure\LatestTelegram.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\datastructure\MeasurementData.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\datastructure\MonitoringCaseData.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\datastructure\OrderNumber.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\datastructure\PacketBuffer.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\datastructure\ParsedPacketBuffer.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\datastructure\ProjectName.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\datastructure\RequiredUserAction.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\datastructure\ScanPoint.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\datastructure\SerialNumber.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\datastructure\StatusOverview.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\datastructure\TypeCode.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\datastructure\UserName.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\drivers\Sick_nanoScan3\src\SickSafetyscannersBase.cpp">
+      <Filter>源文件\NavBase\Lasers\Drivers\Sick_nanoScan3</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\sensor\src\RangeScanner.cpp">
+      <Filter>源文件\NavBase\Lasers\LaserTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\sensor\src\RawScan.cpp">
+      <Filter>源文件\NavBase\Lasers\LaserTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\sensor\src\ScannerParam.cpp">
+      <Filter>源文件\NavBase\Lasers\LaserTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser2D\sensor\src\SickSafetyLaserScanner.cpp">
+      <Filter>源文件\NavBase\Lasers\LaserTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\src\AffinePosture.cpp">
+      <Filter>源文件\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="PointCloudMap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectMapType.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="iSAMApp.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\nav_large.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\nav_large_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\pages.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\pages_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\pages_small.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\pages_small_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\info.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\buttons.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\filelarge.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\filesmall.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\main.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\writelarge.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\writesmall.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\iSAMAppDoc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\iSAMApp.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ribbon.mfcribbon-ms">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\iSAMApp.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>
