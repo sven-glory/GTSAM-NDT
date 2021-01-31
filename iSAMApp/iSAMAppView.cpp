@@ -567,7 +567,7 @@ void CiSAMAppView::SupportPointCloudMap()
 			}
 			
 		}
-
+//test git 210131
 		if (loop_closed)
 		{
 			graph.emplace_shared<BetweenFactor<Pose2> >(cloudMap->poses.size() - 1, 0,
